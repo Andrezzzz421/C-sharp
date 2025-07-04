@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\bin\Debug\net9.0-windows\Mesanio.exe
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\bin\Debug\net9.0-windows\Mesanio.deps.json
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\bin\Debug\net9.0-windows\Mesanio.runtimeconfig.json
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\bin\Debug\net9.0-windows\Mesanio.dll
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\bin\Debug\net9.0-windows\Mesanio.pdb
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\Mesanio.Form1.resources
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\Mesanio.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\Mesanio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\Mesanio.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\Mesanio.AssemblyInfo.cs
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\Mesanio.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\Mesanio.dll
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\refint\Mesanio.dll
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\Mesanio.pdb
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\Mesanio.genruntimeconfig.cache
+C:\Users\User\Desktop\C#\Mesanio\Mesanio\obj\Debug\net9.0-windows\ref\Mesanio.dll
