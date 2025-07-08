@@ -1,0 +1,16 @@
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\bin\Debug\net9.0-windows\RaizDeUnNumero.exe
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\bin\Debug\net9.0-windows\RaizDeUnNumero.deps.json
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\bin\Debug\net9.0-windows\RaizDeUnNumero.runtimeconfig.json
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\bin\Debug\net9.0-windows\RaizDeUnNumero.dll
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\bin\Debug\net9.0-windows\RaizDeUnNumero.pdb
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\RaizDeUnNumero.Form1.resources
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\RaizDeUnNumero.csproj.GenerateResource.cache
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\RaizDeUnNumero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\RaizDeUnNumero.AssemblyInfoInputs.cache
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\RaizDeUnNumero.AssemblyInfo.cs
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\RaizDeUnNumero.csproj.CoreCompileInputs.cache
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\RaizDeUnNumero.dll
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\refint\RaizDeUnNumero.dll
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\RaizDeUnNumero.pdb
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\RaizDeUnNumero.genruntimeconfig.cache
+C:\Users\pc1\source\repos\RaizDeUnNumero\RaizDeUnNumero\obj\Debug\net9.0-windows\ref\RaizDeUnNumero.dll
