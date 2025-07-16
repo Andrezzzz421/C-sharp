@@ -1,0 +1,16 @@
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\bin\Debug\net9.0-windows\FactorialNumero.exe
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\bin\Debug\net9.0-windows\FactorialNumero.deps.json
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\bin\Debug\net9.0-windows\FactorialNumero.runtimeconfig.json
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\bin\Debug\net9.0-windows\FactorialNumero.dll
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\bin\Debug\net9.0-windows\FactorialNumero.pdb
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\FactorialNumero.Form1.resources
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\FactorialNumero.csproj.GenerateResource.cache
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\FactorialNumero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\FactorialNumero.AssemblyInfoInputs.cache
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\FactorialNumero.AssemblyInfo.cs
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\FactorialNumero.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\FactorialNumero.dll
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\refint\FactorialNumero.dll
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\FactorialNumero.pdb
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\FactorialNumero.genruntimeconfig.cache
+C:\Users\ESTUDIANTES\Desktop\Nueva carpeta\FactorialNumero\FactorialNumero\obj\Debug\net9.0-windows\ref\FactorialNumero.dll
