@@ -1,0 +1,16 @@
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\bin\Debug\net9.0-windows\SecuenciaV2.exe
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\bin\Debug\net9.0-windows\SecuenciaV2.deps.json
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\bin\Debug\net9.0-windows\SecuenciaV2.runtimeconfig.json
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\bin\Debug\net9.0-windows\SecuenciaV2.dll
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\bin\Debug\net9.0-windows\SecuenciaV2.pdb
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\SecuenciaV2.Form1.resources
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\SecuenciaV2.csproj.GenerateResource.cache
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\SecuenciaV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\SecuenciaV2.AssemblyInfoInputs.cache
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\SecuenciaV2.AssemblyInfo.cs
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\SecuenciaV2.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\SecuenciaV2.dll
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\refint\SecuenciaV2.dll
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\SecuenciaV2.pdb
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\SecuenciaV2.genruntimeconfig.cache
+C:\Users\ESTUDIANTES\source\repos\SecuenciaV2\SecuenciaV2\obj\Debug\net9.0-windows\ref\SecuenciaV2.dll
