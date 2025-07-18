@@ -1,0 +1,16 @@
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\bin\Debug\net9.0-windows\PrimoONoPrimo.exe
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\bin\Debug\net9.0-windows\PrimoONoPrimo.deps.json
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\bin\Debug\net9.0-windows\PrimoONoPrimo.runtimeconfig.json
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\bin\Debug\net9.0-windows\PrimoONoPrimo.dll
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\bin\Debug\net9.0-windows\PrimoONoPrimo.pdb
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\PrimoONoPrimo.Form1.resources
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\PrimoONoPrimo.csproj.GenerateResource.cache
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\PrimoONoPrimo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\PrimoONoPrimo.AssemblyInfoInputs.cache
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\PrimoONoPrimo.AssemblyInfo.cs
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\PrimoONoPrimo.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\PrimoONoPrimo.dll
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\refint\PrimoONoPrimo.dll
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\PrimoONoPrimo.pdb
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\PrimoONoPrimo.genruntimeconfig.cache
+C:\Users\ESTUDIANTES\source\repos\PrimoONoPrimo\PrimoONoPrimo\obj\Debug\net9.0-windows\ref\PrimoONoPrimo.dll
