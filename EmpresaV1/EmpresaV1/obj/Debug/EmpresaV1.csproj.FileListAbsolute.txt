@@ -1,0 +1,4 @@
+C:\Users\pc1\Documents\Nueva carpeta\EmpresaV1\EmpresaV1\obj\Debug\EmpresaV1.csproj.AssemblyReference.cache
+C:\Users\pc1\Documents\Nueva carpeta\EmpresaV1\EmpresaV1\obj\Debug\EmpresaV1.Properties.Resources.resources
+C:\Users\pc1\Documents\Nueva carpeta\EmpresaV1\EmpresaV1\obj\Debug\EmpresaV1.csproj.GenerateResource.cache
+C:\Users\pc1\Documents\Nueva carpeta\EmpresaV1\EmpresaV1\obj\Debug\EmpresaV1.csproj.CoreCompileInputs.cache
