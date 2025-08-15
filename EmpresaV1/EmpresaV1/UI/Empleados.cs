@@ -60,21 +60,6 @@ namespace EmpresaV1.UI
             BindingSource bs = new BindingSource();
             bs.DataSource = lista;
             dgEmpleados.DataSource = bs;
-
-            // Suponiendo que en "Foto" está la ruta
-            foreach (DataGridViewRow row in dgEmpleados.Rows)
-            {
-                if (row.Cells["Foto"].Value != null && File.Exists(row.Cells["Foto"].Value.ToString()))
-                {
-                    row.Cells["Foto"].Value = Image.FromFile(row.Cells["Foto"].Value.ToString());
-                }
-                else
-                {
-                    // Imagen por defecto
-                    row.Cells["Foto"].Value = Properties.Resources.use_default;
-                }
-            }
-
             dgEmpleados.Refresh();
         }
 
@@ -279,3 +264,4 @@ namespace EmpresaV1.UI
         }
     }
 }
+
