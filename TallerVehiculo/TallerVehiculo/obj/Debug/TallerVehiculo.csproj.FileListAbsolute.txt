@@ -1,0 +1,24 @@
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.csproj.AssemblyReference.cache
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.Properties.Resources.resources
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.csproj.GenerateResource.cache
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.csproj.CoreCompileInputs.cache
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\bin\Debug\TallerVehiculo.exe.config
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\bin\Debug\TallerVehiculo.exe
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\bin\Debug\TallerVehiculo.pdb
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.exe
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.pdb
+C:\Users\pc1\Documents\Nueva carpeta\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.exe.config
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\bin\Debug\TallerVehiculo.exe.config
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\bin\Debug\TallerVehiculo.exe
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\bin\Debug\TallerVehiculo.pdb
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.csproj.AssemblyReference.cache
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.Properties.Resources.resources
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.UI.MarcaUI.resources
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.UI.PropietarioUI.resources
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.UI.VehiculoUI.resources
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.csproj.GenerateResource.cache
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.csproj.CoreCompileInputs.cache
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.exe
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.pdb
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.exe.config
+C:\Users\pc1\Desktop\TallerVehiculo\TallerVehiculo\obj\Debug\TallerVehiculo.UI.MainUI.resources
