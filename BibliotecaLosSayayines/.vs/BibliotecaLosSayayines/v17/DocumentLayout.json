@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc1\\Desktop\\BibliotecaLosSayayines\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{978AEDB7-3874-4B11-8CC0-15C7AAE56C25}|BibliotecaLosSayayines\\BibliotecaLosSayayines.csproj|c:\\users\\pc1\\desktop\\bibliotecalossayayines\\bibliotecalossayayines\\ui\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{978AEDB7-3874-4B11-8CC0-15C7AAE56C25}|BibliotecaLosSayayines\\BibliotecaLosSayayines.csproj|solutionrelative:bibliotecalossayayines\\ui\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978AEDB7-3874-4B11-8CC0-15C7AAE56C25}|BibliotecaLosSayayines\\BibliotecaLosSayayines.csproj|c:\\users\\pc1\\desktop\\bibliotecalossayayines\\bibliotecalossayayines\\ui\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{978AEDB7-3874-4B11-8CC0-15C7AAE56C25}|BibliotecaLosSayayines\\BibliotecaLosSayayines.csproj|solutionrelative:bibliotecalossayayines\\ui\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 618,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc1\\Desktop\\BibliotecaLosSayayines\\BibliotecaLosSayayines\\UI\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "BibliotecaLosSayayines\\UI\\FrmMenu.cs",
+              "ToolTip": "C:\\Users\\pc1\\Desktop\\BibliotecaLosSayayines\\BibliotecaLosSayayines\\UI\\FrmMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BibliotecaLosSayayines\\UI\\FrmMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:27:17.507Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 618,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\Desktop\\BibliotecaLosSayayines\\BibliotecaLosSayayines\\UI\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "BibliotecaLosSayayines\\UI\\FrmMenu.cs",
+              "ToolTip": "C:\\Users\\pc1\\Desktop\\BibliotecaLosSayayines\\BibliotecaLosSayayines\\UI\\FrmMenu.cs",
+              "RelativeToolTip": "BibliotecaLosSayayines\\UI\\FrmMenu.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAnwF0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:27:38.971Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

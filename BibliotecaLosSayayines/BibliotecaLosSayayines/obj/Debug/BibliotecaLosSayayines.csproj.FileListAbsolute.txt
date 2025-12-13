@@ -1,0 +1,106 @@
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.csproj.AssemblyReference.cache
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.Properties.Resources.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmLogin.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.csproj.GenerateResource.cache
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.csproj.CoreCompileInputs.cache
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BibliotecaLosSayayines.exe.config
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BibliotecaLosSayayines.exe
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BibliotecaLosSayayines.pdb
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Google.Protobuf.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\MySql.Data.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Buffers.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.IO.Pipelines.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Memory.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\ZstdSharp.dll
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Google.Protobuf.pdb
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Google.Protobuf.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\MySql.Data.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Buffers.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.IO.Pipelines.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Memory.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\Bibliote.DC31AA97.Up2Date
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.exe
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.pdb
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.exe.config
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BibliotecaLosSayayines.exe.config
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BibliotecaLosSayayines.exe
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BibliotecaLosSayayines.pdb
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Google.Protobuf.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Compression.LZ4.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Hash.xxHash.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\MySql.Data.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Buffers.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.IO.Pipelines.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Memory.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Numerics.Vectors.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\ZstdSharp.dll
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Google.Protobuf.pdb
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Google.Protobuf.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Compression.LZ4.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\K4os.Hash.xxHash.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\MySql.Data.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Buffers.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.IO.Pipelines.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Memory.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Numerics.Vectors.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.csproj.AssemblyReference.cache
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.exe.config
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.Properties.Resources.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmLogin.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.csproj.GenerateResource.cache
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.csproj.CoreCompileInputs.cache
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\Bibliote.DC31AA97.Up2Date
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.exe
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.pdb
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmMenu.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmAutor.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmLibro.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmCategoria.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmClientes.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmEditorial.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmGenero.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmPrestamo.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmRecovery.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmUsuario.resources
+C:\Visual Estudio C#\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmDetPrestamo.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmAutor.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmCategoria.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmClientes.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmDetPrestamo.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmEditorial.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmGenero.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmLibro.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmPrestamo.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmMenu.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmRecovery.resources
+C:\Users\pc1\Desktop\BibliotecaLosSayayines\BibliotecaLosSayayines\obj\Debug\BibliotecaLosSayayines.UI.FrmUsuario.resources
