@@ -1,0 +1,61 @@
+﻿@model IEnumerable<productodb.Models.Producto>
+
+@section Scripts{
+    <script src="~/js/ConfirmaEliminacion.js"></script>
+}
+@{
+    ViewData["Title"] = "Gestion de Productos";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Agregar Productos</a>
+</p>
+<table class="table table-responsive talbe-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cantidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preciocompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cantidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preciocompra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id"
+                class="btn btn-link" >
+                    <i class="fas fa-edit"></i>
+                </a> |
+                <a asp-action="Delete" asp-route-id="@item.Id"
+                class="btn btn-link delete-confirm">
+                <i class="fas fa-trash-alt"></i>
+                </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
