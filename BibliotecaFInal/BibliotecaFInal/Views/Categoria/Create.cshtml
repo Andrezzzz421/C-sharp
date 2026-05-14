@@ -1,0 +1,75 @@
+﻿@model BibliotecaFInal.Models.Categoria
+
+@{
+    ViewData["Title"] = "Nueva Categoría";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card card-app shadow-lg border-0">
+                <div class="card-header bg-primary text-white text-center py-4 rounded-top-3 border-0">
+                    <div class="mb-2">
+                        <i class="fas fa-tags fa-3x"></i>
+                    </div>
+                    <h3 class="fw-bold mb-0">Nueva Categoría</h3>
+                    <p class="small opacity-75 mb-0">Define un nuevo género literario para la biblioteca</p>
+                </div>
+
+                <div class="card-body p-4">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small" role="alert"></div>
+
+                        <div class="mb-4">
+                            <label asp-for="Nombre" class="form-label fw-bold text-dark small"></label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0 text-muted">
+                                    <i class="fas fa-font"></i>
+                                </span>
+                                <input asp-for="Nombre" class="form-control border-start-0 ps-0" placeholder="Ej: Ciencia Ficción, Historia..." />
+                            </div>
+                            <span asp-validation-for="Nombre" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-4 text-center">
+                            <label class="form-label fw-bold text-dark small d-block text-start">Icono o Logo</label>
+
+                            <div id="previewContainer" class="mb-3 d-none">
+                                <div class="position-relative d-inline-block">
+                                    <img id="previewImage" src="#" class="rounded-circle shadow-sm border" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid white !important;" />
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                </div>
+                                <p class="small text-muted mt-2">Vista previa seleccionada</p>
+                            </div>
+
+                            <div class="p-4 border border-dashed rounded-3 bg-light">
+                                <i class="fas fa-cloud-upload-alt fa-2x text-muted mb-2 d-block"></i>
+                                <label for="logoInput" class="form-label small text-muted cursor-pointer">Haz clic para subir una imagen</label>
+                                <input type="file" name="arc" class="form-control form-control-sm" accept="image/*" id="logoInput" />
+                            </div>
+                            <span asp-validation-for="Logo" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-app py-2 shadow-sm">
+                                <i class="fas fa-save me-2"></i>Guardar Categoría
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary btn-sm py-2">
+                                <i class="fas fa-times me-2"></i>Cancelar y Volver
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/js/categorias.js" asp-append-version="true"></script>
+}

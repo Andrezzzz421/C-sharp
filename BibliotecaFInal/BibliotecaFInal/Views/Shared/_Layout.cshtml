@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Biblioteca App</title>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="~/BibliotecaFInal.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+    <div class="app-container">
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <i class="fas fa-book-reader me-2"></i> BIBLIOTECA
+            </div>
+
+            <div class="mt-4 flex-grow-1">
+                <small class="text-uppercase px-4 opacity-50 fw-bold" style="font-size: 10px;">Gestión</small>
+
+                <a class="nav-link-custom" asp-controller="Libro" asp-action="Index">
+                    <i class="fas fa-book"></i> Libros
+                </a>
+                <a class="nav-link-custom" asp-controller="Autore" asp-action="Index">
+                    <i class="fas fa-user-edit"></i> Autores
+                </a>
+                <a class="nav-link-custom" asp-controller="Categoria" asp-action="Index">
+                    <i class="fas fa-tags"></i> Categorías
+                </a>
+                <a class="nav-link-custom" asp-controller="Editoriale" asp-action="Index">
+                    <i class="fas fa-building"></i> Editoriales
+                </a>
+
+                <hr class="mx-3 opacity-25">
+                <small class="text-uppercase px-4 opacity-50 fw-bold" style="font-size: 10px;">Configuración</small>
+
+                <a class="nav-link-custom" asp-controller="Paise" asp-action="Index">
+                    <i class="fas fa-globe-americas"></i> Países
+                </a>
+                <a class="nav-link-custom" asp-controller="Ejemplare" asp-action="Index">
+                    <i class="fas fa-copy"></i> Ejemplares
+                </a>
+            </div>
+
+            <div class="p-3">
+                <div class="bg-dark rounded p-2 text-center" style="font-size: 12px; opacity: 0.7;">
+                    &copy; 2026 - Biblioteca App
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-content">
+            <header class="d-flex justify-content-between align-items-center mb-4 pb-3 border-bottom">
+                <h4 class="text-dark fw-bold mb-0">@ViewData["Title"]</h4>
+                <div class="user-profile">
+                    <i class="fas fa-user-circle fa-2x text-muted"></i>
+                </div>
+            </header>
+
+            <main role="main">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/Libro" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

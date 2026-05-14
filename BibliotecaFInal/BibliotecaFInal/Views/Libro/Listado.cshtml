@@ -1,0 +1,106 @@
+﻿@model IEnumerable<BibliotecaFInal.Models.Libro>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        /* Estilo de la Ficha */
+        .ficha-libro {
+            background-color: white;
+            border: 2px solid #dee2e6;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            page-break-inside: avoid; /* Evita que un libro se corte entre dos páginas */
+        }
+
+        .ficha-header {
+            background-color: #dc3545;
+            color: white;
+            padding: 15px;
+        }
+
+        .portada-pdf {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .label-ficha {
+            font-weight: bold;
+            color: #6c757d;
+            font-size: 0.85rem;
+            margin-bottom: 2px;
+        }
+
+        .dato-ficha {
+            font-size: 1rem;
+            color: #212529;
+            margin-bottom: 12px;
+        }
+
+        /* Forzar salto de página después de cada libro si quieres uno por hoja */
+        /* .ficha-libro { page-break-after: always; } */
+    </style>
+</head>
+<body onload="window.print()">
+    <div class="container">
+        <h2 class="text-center mb-4 mt-2">Catálogo de Libros Filtrados</h2>
+
+        @foreach (var libro in Model)
+        {
+            <div class="ficha-libro shadow-sm">
+                <div class="ficha-header">
+                    <h4 class="mb-0">@libro.Titulo</h4>
+                </div>
+                <div class="row p-4">
+                    <div class="col-3 text-center">
+                        @if (libro.Portada != null)
+                        {
+                            <img src="data:image/*;base64,@Convert.ToBase64String(libro.Portada)" class="portada-pdf" />
+                        }
+                        else
+                        {
+                            <div class="bg-light p-4 border rounded text-muted small">Sin Portada</div>
+                        }
+                    </div>
+                    <div class="col-9">
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="label-ficha">AUTOR</p>
+                                <p class="dato-ficha">@libro.IdAutorNavigation?.Nombre</p>
+
+                                <p class="label-ficha">CATEGORÍA</p>
+                                <p class="dato-ficha">@libro.IdCategoriaNavigation?.Nombre</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="label-ficha">EDITORIAL</p>
+                                <p class="dato-ficha">@libro.IdEditorialNavigation?.Nombre</p>
+
+                                <p class="label-ficha">AÑO</p>
+                                <p class="dato-ficha">@libro.AnioPublicacion</p>
+                            </div>
+                        </div>
+                        <p class="label-ficha">SINOPSIS BREVE</p>
+                        <p class="small text-muted" style="line-height: 1.4;">
+                            @(libro.Sinopsis?.Length > 300 ? libro.Sinopsis.Substring(0, 297) + "..." : libro.Sinopsis)
+                        </p>
+                        <div class="mt-2 p-2 bg-light rounded d-flex justify-content-between">
+                            <span><strong>ISBN:</strong> @libro.Isbn</span>
+                            <span class="text-success fw-bold">Precio: $@libro.Precio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>

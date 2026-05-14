@@ -1,0 +1,97 @@
+﻿@model BibliotecaFInal.Models.Autore
+
+@{
+    ViewData["Title"] = "Nuevo Autor";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header bg-primary text-white text-center py-4 rounded-top-4">
+                    <h3 class="mb-0"><i class="fas fa-user-plus me-2"></i>Registrar Nuevo Autor</h3>
+                    <p class="mb-0 opacity-75">Completa la información del escritor</p>
+                </div>
+
+                <div class="card-body p-4">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Nombre" class="form-label fw-bold">Nombre</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"><i class="fas fa-id-card"></i></span>
+                                    <input asp-for="Nombre" class="form-control" placeholder="Ej: Gabriel" />
+                                </div>
+                                <span asp-validation-for="Nombre" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Apellido" class="form-label fw-bold">Apellido</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"><i class="fas fa-id-card"></i></span>
+                                    <input asp-for="Apellido" class="form-control" placeholder="Ej: García Márquez" />
+                                </div>
+                                <span asp-validation-for="Apellido" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Correo" class="form-label fw-bold">Correo Electrónico</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="fas fa-envelope"></i></span>
+                                <input asp-for="Correo" class="form-control" placeholder="autor@ejemplo.com" />
+                            </div>
+                            <span asp-validation-for="Correo" class="text-danger small"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Genero" class="form-label fw-bold">Género</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"><i class="fas fa-venus-mars"></i></span>
+                                    <input asp-for="Genero" class="form-control" placeholder="Masculino/Femenino" />
+                                </div>
+                                <span asp-validation-for="Genero" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="IdPaisOrigen" class="form-label fw-bold">País de Origen</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light"><i class="fas fa-globe"></i></span>
+                                    <select asp-for="IdPaisOrigen" class="form-select" asp-items="ViewBag.Paises">
+                                        <option value="">Seleccione...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Foto" class="form-label fw-bold">Foto del Autor</label>
+                            <input type="file" name="arc" class="form-control" accept="image/*" />
+                            <div class="form-text">Formatos permitidos: JPG, PNG.</div>
+                        </div>
+
+                        <hr />
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill shadow-sm">
+                                <i class="fas fa-save me-2"></i>Guardar Autor
+                            </button>
+                            <a asp-action="Index" class="btn btn-link text-muted mt-2">
+                                <i class="fas fa-arrow-left me-1"></i>Regresar al listado
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

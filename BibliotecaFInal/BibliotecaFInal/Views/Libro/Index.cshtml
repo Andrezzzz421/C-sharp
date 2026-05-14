@@ -1,0 +1,177 @@
+﻿@model IEnumerable<BibliotecaFInal.Models.Libro>
+
+@{
+    ViewData["Title"] = "Catálogo de Libros";
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="fas fa-exclamation-triangle me-2"></i> @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="text-dark fw-bold mb-0">Explorar Biblioteca</h2>
+        <p class="text-muted small">Haz clic en una portada para ver los detalles del libro</p>
+    </div>
+    <div class="d-flex gap-2">
+        <button class="btn btn-outline-danger shadow-sm" onclick="abrirModalExportar()">
+            <i class="fas fa-file-pdf me-2"></i>Exportar PDF
+        </button>
+        <a asp-action="Create" class="btn btn-app shadow-sm">
+            <i class="fas fa-plus me-2"></i>Nuevo Libro
+        </a>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm hover-book cursor-pointer"
+                 onclick="verDetalles('@item.Titulo', '@item.Isbn', '@item.AnioPublicacion', '@item.Precio', '@item.IdAutorNavigation.Nombre', '@item.IdCategoriaNavigation.Nombre', '@item.IdEditorialNavigation.Nombre', '@item.Sinopsis', '@(item.Portada != null ? Convert.ToBase64String(item.Portada) : "")')">
+
+                <div class="position-relative overflow-hidden rounded-top-3" style="height: 300px;">
+                    @if (item.Portada != null)
+                    {
+                        var base64 = Convert.ToBase64String(item.Portada);
+                        var imgSrc = $"data:image/*;base64,{base64}";
+                        <img src="@imgSrc" class="card-img-top w-100 h-100" style="object-fit: cover;" alt="@item.Titulo" />
+                    }
+                    else
+                    {
+                        <div class="bg-light d-flex align-items-center justify-content-center h-100">
+                            <i class="fas fa-book fa-4x text-muted opacity-25"></i>
+                        </div>
+                    }
+                    <div class="book-overlay d-flex align-items-center justify-content-center">
+                        <span class="btn btn-light btn-sm rounded-pill px-3 shadow">Ver Detalles</span>
+                    </div>
+                </div>
+
+                <div class="card-body p-3 text-center">
+                    <h6 class="fw-bold text-dark mb-1 text-truncate">@item.Titulo</h6>
+                    <p class="text-muted extra-small mb-0">@item.IdAutorNavigation.Nombre</p>
+                </div>
+
+                <div class="card-footer bg-transparent border-0 pb-3 d-flex justify-content-center gap-2">
+                    <a asp-action="Edit" asp-route-id="@item.IdLibro" class="btn btn-sm btn-light shadow-sm" onclick="event.stopPropagation();">
+                        <i class="fas fa-edit text-warning"></i>
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.IdLibro" class="btn btn-sm btn-light shadow-sm" onclick="event.stopPropagation();">
+                        <i class="fas fa-trash text-danger"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="modal fade" id="libroModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-4">
+            <div class="modal-header border-0 pb-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <div class="row">
+                    <div class="col-md-5 mb-3 mb-md-0 text-center">
+                        <img id="modalPortada" src="" class="img-fluid rounded-3 shadow" style="max-height: 400px; object-fit: cover;" />
+                    </div>
+                    <div class="col-md-7">
+                        <h2 id="modalTitulo" class="fw-bold text-dark mb-1"></h2>
+                        <p id="modalAutor" class="text-primary fw-bold mb-3"></p>
+
+                        <div class="row g-2 mb-3">
+                            <div class="col-6">
+                                <small class="text-muted d-block">Categoría</small>
+                                <span id="modalCategoria" class="badge bg-light text-dark border w-100 py-2"></span>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted d-block">Año</small>
+                                <span id="modalAnio" class="badge bg-light text-dark border w-100 py-2"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 p-3 bg-light rounded-3">
+                            <h6 class="fw-bold small">Sinopsis</h6>
+                            <p id="modalSinopsis" class="small text-muted mb-0 text-justify" style="line-height: 1.6;"></p>
+                        </div>
+
+                        <ul class="list-unstyled small">
+                            <li class="mb-1"><strong>ISBN:</strong> <span id="modalIsbn"></span></li>
+                            <li class="mb-1"><strong>Editorial:</strong> <span id="modalEditorial"></span></li>
+                            <li class="mb-1"><strong>Precio:</strong> <span class="text-success fw-bold" id="modalPrecio"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exportarPdfModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-4">
+            <div class="modal-header bg-danger text-white border-0">
+                <h5 class="modal-title fw-bold"><i class="fas fa-file-pdf me-2"></i>Centro de Exportación</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-4">
+                <div class="row">
+                    <div class="col-md-5 border-end">
+                        <h6 class="fw-bold text-danger mb-3"><i class="fas fa-book me-2"></i>Libro Individual</h6>
+                        <label class="form-label small">Seleccionar título:</label>
+                        <select id="selectLibroPdf" class="form-select mb-3 shadow-sm" onchange="gestionarBotones('individual')">
+                            <option value="">-- Buscar libro --</option>
+                            @foreach (var item in Model)
+                            {
+                                <option value="@item.IdLibro">@item.Titulo</option>
+                            }
+                        </select>
+                        <button type="button" id="btnPdfIndividual" class="btn btn-danger w-100" disabled onclick="descargarPdfIndividual()">
+                            <i class="fas fa-download me-2"></i>Ficha Técnica
+                        </button>
+                    </div>
+
+                    <div class="col-md-7 ps-md-4">
+                        <h6 class="fw-bold text-primary mb-3"><i class="fas fa-filter me-2"></i>Listado Filtrado</h6>
+                        <div class="row g-2">
+                            <div class="col-6 mb-2">
+                                <label class="small fw-bold">Categoría:</label>
+                                <select id="filtroCategoria" class="form-select form-select-sm">
+                                    <option value="">Todas</option>
+                                    @foreach (var cat in Model.Select(x => x.IdCategoriaNavigation).DistinctBy(x => x.IdCategoria))
+                                    {
+                                        <option value="@cat.IdCategoria">@cat.Nombre</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="col-6 mb-2">
+                                <label class="small fw-bold">Año:</label>
+                                <input type="number" id="filtroAnio" class="form-select form-select-sm" placeholder="Ej: 2024">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label class="small fw-bold">Autor:</label>
+                                <select id="filtroAutor" class="form-select form-select-sm">
+                                    <option value="">Todos</option>
+                                    @foreach (var aut in Model.Select(x => x.IdAutorNavigation).DistinctBy(x => x.IdAutor))
+                                    {
+                                        <option value="@aut.IdAutor">@aut.Nombre</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary w-100" onclick="descargarPdfFiltrado()">
+                            <i class="fas fa-file-invoice me-2"></i>Exportar Listado
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Libro.js" asp-append-version="true"></script>
+}

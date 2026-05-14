@@ -1,0 +1,86 @@
+﻿@model BibliotecaFInal.Models.Ejemplare
+
+@{
+    ViewData["Title"] = "Editar Ejemplar";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-app shadow-lg border-0">
+                <div class="card-header bg-warning text-dark text-center py-4 rounded-top-3 border-0">
+                    <div class="mb-2">
+                        <i class="fas fa-edit fa-3x"></i>
+                    </div>
+                    <h3 class="fw-bold mb-0">Actualizar Ejemplar</h3>
+                    <p class="small opacity-75 mb-0">Modifica el estado o ubicación de esta copia física</p>
+                </div>
+
+                <div class="card-body p-4 p-md-5">
+                    <form asp-action="Edit" method="post">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small" role="alert"></div>
+                        <input type="hidden" asp-for="IdEjemplar" />
+
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <label asp-for="IdLibro" class="form-label fw-bold text-dark small">Libro Vinculado</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light border-end-0 text-muted">
+                                        <i class="fas fa-book"></i>
+                                    </span>
+                                    <select asp-for="IdLibro" class="form-select border-start-0 ps-0" asp-items="ViewBag.Libros">
+                                        <option value="">-- Seleccione un Libro --</option>
+                                    </select>
+                                </div>
+                                <span asp-validation-for="IdLibro" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label asp-for="CodigoInventario" class="form-label fw-bold text-dark small">Código de Inventario</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light border-end-0 text-muted">
+                                        <i class="fas fa-tag"></i>
+                                    </span>
+                                    <input asp-for="CodigoInventario" class="form-control border-start-0 ps-0" placeholder="Código único" />
+                                </div>
+                                <span asp-validation-for="CodigoInventario" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-12 mb-4">
+                                <label asp-for="Estado" class="form-label fw-bold text-dark small">Estado de Disponibilidad</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light border-end-0 text-muted">
+                                        <i class="fas fa-toggle-on"></i>
+                                    </span>
+                                    <select asp-for="Estado" class="form-select border-start-0 ps-0">
+                                        <option value="Disponible">Disponible</option>
+                                        <option value="Prestado">Prestado</option>
+                                        <option value="Reservado">Reservado</option>
+                                        <option value="Dañado">Dañado/En Reparación</option>
+                                        <option value="Perdido">Perdido</option>
+                                    </select>
+                                </div>
+                                <span asp-validation-for="Estado" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-warning text-dark fw-bold py-2 shadow-sm">
+                                <i class="fas fa-sync-alt me-2"></i>Actualizar Inventario
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary py-2 border-0">
+                                <i class="fas fa-arrow-left me-2"></i>Cancelar y Volver
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

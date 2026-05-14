@@ -1,0 +1,128 @@
+﻿@model BibliotecaFInal.Models.Libro
+
+@{
+    ViewData["Title"] = "Nuevo Libro";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card card-app shadow-lg border-0 overflow-hidden">
+                <div class="card-header bg-primary text-white p-4 border-0">
+                    <div class="d-flex align-items-center">
+                        <div class="bg-white text-primary rounded-circle p-3 me-3">
+                            <i class="fas fa-book-medical fa-2x"></i>
+                        </div>
+                        <div>
+                            <h3 class="fw-bold mb-0">Registrar Libro</h3>
+                            <p class="small opacity-75 mb-0">Añade una nueva obra al catálogo general</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-body p-4 p-md-5">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small" role="alert"></div>
+
+                        <div class="row">
+                            <div class="col-md-7 border-end-md pe-md-4">
+                                <h5 class="text-primary fw-bold mb-4 border-bottom pb-2">Información Básica</h5>
+
+                                <div class="mb-3">
+                                    <label asp-for="Titulo" class="form-label small fw-bold text-dark"></label>
+                                    <input asp-for="Titulo" class="form-control" placeholder="Título oficial del libro" />
+                                    <span asp-validation-for="Titulo" class="text-danger small"></span>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label asp-for="Isbn" class="form-label small fw-bold text-dark">ISBN</label>
+                                        <input asp-for="Isbn" class="form-control" placeholder="Ej: 978-..." />
+                                        <span asp-validation-for="Isbn" class="text-danger small"></span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label asp-for="Precio" class="form-label small fw-bold text-dark"></label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">$</span>
+                                            <input asp-for="Precio" class="form-control" placeholder="0.00" />
+                                        </div>
+                                        <span asp-validation-for="Precio" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Sinopsis" class="form-label small fw-bold text-dark"></label>
+                                    <textarea asp-for="Sinopsis" class="form-control" rows="4" placeholder="Breve resumen de la trama..."></textarea>
+                                    <span asp-validation-for="Sinopsis" class="text-danger small"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="AnioPublicacion" class="form-label small fw-bold text-dark">Año de Publicación</label>
+                                    <input asp-for="AnioPublicacion" type="number" class="form-control" placeholder="YYYY" />
+                                    <span asp-validation-for="AnioPublicacion" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 ps-md-4 mt-4 mt-md-0">
+                                <h5 class="text-primary fw-bold mb-4 border-bottom pb-2">Clasificación y Arte</h5>
+
+                                <div class="mb-3">
+                                    <label class="form-label small fw-bold text-dark">Autor</label>
+                                    <select asp-for="IdAutor" class="form-select" asp-items="ViewBag.Autore">
+                                        <option value="">-- Seleccionar Autor --</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label small fw-bold text-dark">Categoría</label>
+                                    <select asp-for="IdCategoria" class="form-select" asp-items="ViewBag.Categoria">
+                                        <option value="">-- Seleccionar Categoría --</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label class="form-label small fw-bold text-dark">Editorial</label>
+                                    <select asp-for="IdEditorial" class="form-select" asp-items="ViewBag.Editoriale">
+                                        <option value="">-- Seleccionar Editorial --</option>
+                                    </select>
+                                </div>
+
+                                <div class="card bg-light border-dashed p-3 text-center">
+                                    <label class="form-label small fw-bold text-dark d-block">Portada del Libro</label>
+                                    <div id="previewContainer" class="mb-2 d-none">
+                                        <img id="previewImage" src="#" class="rounded shadow-sm img-thumbnail" style="max-height: 180px;" />
+                                    </div>
+                                    <div id="placeholderPreview" class="py-4">
+                                        <i class="fas fa-image fa-3x text-muted opacity-25"></i>
+                                        <p class="small text-muted mt-2 mb-0">Sin imagen seleccionada</p>
+                                    </div>
+                                    <input type="file" name="arc" id="portadaInput" class="form-control form-control-sm mt-3" accept="image/*" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mt-5 border-top pt-4">
+                            <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                                <i class="fas fa-arrow-left me-2"></i>Volver
+                            </a>
+                            <button type="submit" class="btn btn-primary px-5 py-2 fw-bold shadow">
+                                <i class="fas fa-save me-2"></i>Guardar Libro
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        <script src="~/js/Libro.js" asp-append-version="true"></script>
+
+    </script>
+}

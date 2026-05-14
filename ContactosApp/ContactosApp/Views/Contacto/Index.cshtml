@@ -1,0 +1,77 @@
+﻿@using ContactosApp.ViewModels
+@model Pager<ContactosApp.ViewModels.ContactosViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Contacto</th>
+            <th>Telefono</th>
+            <th>Correo</th>
+            <th>Estado</th>
+            <th>Tipo</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Items) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contacto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div>
+    @if(Model.PageNumber >1)
+    {
+        <a asp-action="Index" asp-route-pageNumber="@(Model.PageNumber - 1)"
+        asp-route-pageSize="@(Model.PageSize)">Anterior</a>
+    }
+
+    @for(int i = 1;i<=Model.TotalPages(); i++)
+    {
+        if(i == Model.PageNumber)
+        {
+            <span>@i</span>
+        }
+        else
+        {
+            <a asp-action="Index" asp-route-pageNumber="@i"
+            asp-route-pageSize="@(Model.PageSize)">@i</a>
+        }
+    }
+
+        @if(Model.PageNumber < Model.TotalPages())
+        {
+            <a asp-action="Index" asp-route-pageNumber="@(Model.PageNumber + 1)"
+            asp-route-pageSize="@(Model.PageSize)">Siguiente</a>
+        }
+
+</div>

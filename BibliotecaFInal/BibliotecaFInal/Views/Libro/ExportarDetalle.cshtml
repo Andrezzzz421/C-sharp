@@ -1,0 +1,67 @@
+﻿@model BibliotecaFInal.Models.Libro
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalle - @Model.Titulo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        .header-pdf {
+            border-bottom: 3px solid #dc3545;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        .img-portada {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="header-pdf d-flex justify-content-between align-items-center">
+        <h1 class="text-danger">Ficha Técnica del Libro</h1>
+        <span class="text-muted">Biblioteca Final - @DateTime.Now.ToShortDateString()</span>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            @if (Model.Portada != null)
+            {
+                <img src="data:image/*;base64,@Convert.ToBase64String(Model.Portada)" class="img-portada" />
+            }
+        </div>
+        <div class="col-8">
+            <h2 class="fw-bold">@Model.Titulo</h2>
+            <hr />
+            <p><strong>Autor:</strong> @Model.IdAutorNavigation.Nombre</p>
+            <p><strong>ISBN:</strong> @Model.Isbn</p>
+            <p><strong>Categoría:</strong> @Model.IdCategoriaNavigation.Nombre</p>
+            <p><strong>Editorial:</strong> @Model.IdEditorialNavigation.Nombre</p>
+            <p><strong>Año:</strong> @Model.AnioPublicacion</p>
+            <p><strong>Precio:</strong> <span class="text-success fw-bold">$@Model.Precio</span></p>
+            <div class="mt-4 p-3 bg-light rounded">
+                <h6 class="fw-bold">Sinopsis:</h6>
+                <p>@Model.Sinopsis</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            window.print();
+            setTimeout(function () { window.close(); }, 500);
+        };
+    </script>
+</body>
+</html>

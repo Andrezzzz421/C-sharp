@@ -1,0 +1,85 @@
+﻿@model BibliotecaFInal.Models.Categoria
+
+@{
+    ViewData["Title"] = "Editar Categoría";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card card-app shadow-lg border-0">
+                <div class="card-header bg-warning text-dark text-center py-4 rounded-top-3 border-0">
+                    <div class="mb-2">
+                        <i class="fas fa-edit fa-3x"></i>
+                    </div>
+                    <h3 class="fw-bold mb-0">Editar Categoría</h3>
+                    <p class="small opacity-75 mb-0">Actualiza la información del género seleccionado</p>
+                </div>
+
+                <div class="card-body p-4">
+                    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small" role="alert"></div>
+                        <input type="hidden" asp-for="IdCategoria" />
+
+                        <div class="mb-4">
+                            <label asp-for="Nombre" class="form-label fw-bold text-dark small"></label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0 text-muted">
+                                    <i class="fas fa-font"></i>
+                                </span>
+                                <input asp-for="Nombre" class="form-control border-start-0 ps-0" placeholder="Nombre de la categoría" />
+                            </div>
+                            <span asp-validation-for="Nombre" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-4 text-center">
+                            <label class="form-label fw-bold text-dark small d-block text-start">Logo de la Categoría</label>
+                            
+                            <div id="previewContainer" class="mb-3">
+                                <div class="position-relative d-inline-block">
+                                    @if (Model.Logo != null)
+                                    {
+                                        var base64 = Convert.ToBase64String(Model.Logo);
+                                        var imgSrc = $"data:image/*;base64,{base64}";
+                                        <img id="previewImage" src="@imgSrc" class="rounded-circle shadow-sm border" style="width: 110px; height: 110px; object-fit: cover; border: 4px solid white !important;" />
+                                    }
+                                    else
+                                    {
+                                        <div id="noLogoPlaceholder" class="rounded-circle bg-light d-flex align-items-center justify-content-center shadow-sm mx-auto" style="width: 110px; height: 110px;">
+                                            <i class="fas fa-tags fa-2x text-muted opacity-50"></i>
+                                        </div>
+                                        <img id="previewImage" src="#" class="rounded-circle shadow-sm border d-none" style="width: 110px; height: 110px; object-fit: cover; border: 4px solid white !important;" />
+                                    }
+                                    <span class="position-absolute bottom-0 end-0 badge rounded-pill bg-primary border border-2 border-white p-2">
+                                        <i class="fas fa-camera text-white" style="font-size: 0.7rem;"></i>
+                                    </span>
+                                </div>
+                                <p id="textStatus" class="small text-muted mt-2">Logo actual</p>
+                            </div>
+
+                            <div class="p-3 border border-dashed rounded-3 bg-light">
+                                <label for="logoInput" class="form-label small text-primary fw-bold cursor-pointer mb-2 d-block">¿Deseas cambiar el logo?</label>
+                                <input type="file" name="arc" class="form-control form-control-sm" accept="image/*" id="logoInput" data-val="false" />
+                            </div>
+                            <span asp-validation-for="Logo" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-warning text-dark fw-bold py-2 shadow-sm">
+                                <i class="fas fa-sync-alt me-2"></i>Actualizar Categoría
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary btn-sm py-2">
+                                <i class="fas fa-arrow-left me-2"></i>Descartar Cambios
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @* Reutilizamos el JS de categorías que hicimos antes *@
+    <script src="~/js/categorias.js" asp-append-version="true"></script>
+}
